@@ -1,0 +1,37 @@
+{
+  "name": "twitter-tributary",
+  "engines": {
+    "node": "0.10.x",
+    "npm": ">=1.1.0"
+  },
+  "version": "0.0.1",
+  "dependencies": {
+    "lodash": "1.3.x",
+    "oauth": "0.9.x",
+    "redis": "0.8.x"
+  },
+  "readmeFilename": "README.md",
+  "description": "A nodejs module providing access to the Twitter streaming API. Exposes a set of standard adapters, with the ability to easily register custom adapters.",
+  "main": "tributary.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/normanjoyner/twitter-tributary"
+  },
+  "keywords": [
+    "twitter",
+    "stream",
+    "streaming",
+    "tributary",
+    "tweet",
+    "api"
+  ],
+  "author": "Norman Joyner <norman.joyner@gmail.com>",
+  "license": "GPLV2",
+  "bugs": {
+    "url": "https://github.com/normanjoyner/twitter-tributary/issues"
+  }
+}
